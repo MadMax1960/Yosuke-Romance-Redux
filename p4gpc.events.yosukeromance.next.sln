@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p4gpc.events.yosukeromance.next", "p4gpc.events.yosukeromance.next\p4gpc.events.yosukeromance.next.csproj", "{EF036AF3-C316-41CB-BED9-707364A204FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF036AF3-C316-41CB-BED9-707364A204FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF036AF3-C316-41CB-BED9-707364A204FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF036AF3-C316-41CB-BED9-707364A204FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF036AF3-C316-41CB-BED9-707364A204FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3C687B5-B2EB-4489-9A22-6AD37B7CFECB}
+	EndGlobalSection
+EndGlobal
