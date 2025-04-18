@@ -72,6 +72,41 @@ namespace p4gpc.events.yosukeromance.next
 			{
 				criFsApi.AddProbingPath("Rank6");
 			}
+			if (_configuration.Rank7)
+			{
+				criFsApi.AddProbingPath("Rank7");
+			}
+			if (_configuration.Rank8)
+			{
+				criFsApi.AddProbingPath("Rank8");
+			}
+			if (_configuration.Rank9)
+			{
+				criFsApi.AddProbingPath("Rank9");
+			}
+			if (_configuration.Rank10)
+			{
+				criFsApi.AddProbingPath("Rank10");
+			}
+			if (_configuration.CampScene)
+			{
+				criFsApi.AddProbingPath("CampScene");
+			}
+
+
+			//if (_configuration.Testing)
+			//{
+			//	criFsApi.AddProbingPath("Testing");
+			//}
+
+			//if (_configuration.Christmas)
+			//{
+			//	criFsApi.AddProbingPath("Christmas");
+			//}
+			//if (_configuration.Valentine)
+			//{
+			//	criFsApi.AddProbingPath("Valentine");
+			//}
 		}
 
 		#region Standard Overrides

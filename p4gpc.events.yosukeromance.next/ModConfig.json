@@ -10,12 +10,21 @@
   "ModR2RManagedDll64": "x64/p4gpc.events.yosukeromance.next.dll",
   "ModNativeDll32": "",
   "ModNativeDll64": "",
+  "Tags": [],
+  "CanUnload": null,
+  "HasExports": null,
   "IsLibrary": false,
   "ReleaseMetadataFileName": "p4gpc.events.yosukeromance.next.ReleaseMetadata.json",
   "PluginData": {},
   "IsUniversalMod": false,
-  "ModDependencies": [ "reloaded.sharedlib.hooks" ],
+  "ModDependencies": [
+    "reloaded.sharedlib.hooks"
+  ],
   "OptionalDependencies": [],
-  "SupportedAppId": [],
-  "ProjectUrl": ""
+  "SupportedAppId": [
+    "p4g.exe"
+  ],
+  "ProjectUrl": "",
+  "CreatorUrl": "",
+  "IsSeparator": false
 }
