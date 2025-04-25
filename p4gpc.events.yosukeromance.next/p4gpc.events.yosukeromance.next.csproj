@@ -34,6 +34,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="..\ModFiles\**\*">
+      <Link>%(RecursiveDir)%(Filename)%(Extension)</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="ModConfig.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -41,7 +45,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-
+  
   <ItemGroup>
     <PackageReference Include="CriFs.V2.Hook.Interfaces" Version="1.0.0" />
     <PackageReference Include="Reloaded.Mod.Interfaces" Version="2.4.0" ExcludeAssets="runtime" />
