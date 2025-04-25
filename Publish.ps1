@@ -162,7 +162,7 @@ param (
     $UseScriptDirectory=$True,
 
     ## => User Config <= ## 
-    $ProjectPath = "p4gpc.events.yosukeromance.next.csproj",
+    $ProjectPath = "p4gpc.events.yosukeromance.next/p4gpc.events.yosukeromance.next.csproj",
     $PackageName = "p4gpc.events.yosukeromance.next",
     $PublishOutputDir = "Publish/ToUpload",
 
@@ -181,7 +181,7 @@ param (
     $GameBananaItemId = 333681, # From mod page URL.
 
     $NuGetPackageId = "p4gpc.events.yosukeromance.next",
-    $NuGetFeedUrl = "http://packages.sewer56.moe:5000/v3/index.json",
+    $NuGetFeedUrl = "https://packages.sewer56.moe/v3/index.json",
     $NuGetAllowUnlisted = $False,
 
     ## => User: Publish Config
