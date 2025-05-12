@@ -15,9 +15,16 @@
   "HasExports": null,
   "IsLibrary": false,
   "ReleaseMetadataFileName": "p4gpc.events.yosukeromance.next.ReleaseMetadata.json",
-  "PluginData": {},
+  "PluginData": {
+    "GameBanana": {
+      "ItemType": "Mod",
+      "ItemId": 425331
+    }
+  },
   "IsUniversalMod": false,
   "ModDependencies": [
+    "crifs.v2.hook",
+    "p5rpc.modloader",
     "reloaded.sharedlib.hooks"
   ],
   "OptionalDependencies": [],
